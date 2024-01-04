@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.navbar {
+    padding: 1.5px;
+   
+    
+    display: flex;
+    justify-content: space-between; /* Adjusted to spread items evenly */
+    align-items: center; /* Vertically center items */
+    background: #c21500;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc500, #c21500);
+    justify-content: end;
+    /* position: fixed; */
+}
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: end;
+    padding-right: 40px;
+}
+
+
+.navbar li{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: cursive;
+    padding: 10px;
+}
+
+.navbar h1 {
+    margin: 0; 
+    font-family: cursive;
+}
+
+
+.navbar a:hover {
+    color: rgb(250, 250, 250);
+    transform: scale(1.2);
+}
+.logo{
+    width:70px;
+    height:39px;
+     margin-right: 43rem;
+     margin-top: 3px;
+    position: relative;
+}
+.btn{
+    background-color:#f07f1d;
+    font-family: cursive;
+    color:rgb(8, 8, 8);
+    text-decoration:none;
+    border:2px solid transparent;
+    font-weight:bold;
+     
+    border-radius:90px;
+    transition:transform .4s;
+    font-size: 18px;
+    
+}
+.btn:hover{
+    transform: scale(1.2);
+    
+    color: rgb(238, 66, 18);
+  }
+  .nav{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: cursive;
+  }

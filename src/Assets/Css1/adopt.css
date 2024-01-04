@@ -1,0 +1,19 @@
+.adoptimg{
+    background-color: aqua;
+    height:80vh;
+    width:25vw;  
+}
+.adoptform{
+    background-color: aqua;
+    height:80vh;
+    width:25vw;
+    /* margin: 4%; */
+    /* margin-left: 20%; */
+
+}
+.adopt-wrap{
+    display:flex;
+    gap:1rem;
+    align-items: center;
+    justify-content: center;
+}

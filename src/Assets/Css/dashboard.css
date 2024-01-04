@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+.viewport {
+  padding-left: 250px;
+  transition: all 0.5s ease;
+}
+
+.content {
+  width: 100%;
+  position: relative;
+  margin-right: 0;
+}
+
+
+
+.sidebar {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 250px;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background-color: #fdfcf9;
+  
+  transition: all 0.5s ease;
+}
+
+.sidebar header {
+  background: #c21500;
+  background-color: #f5deb3;
+  background: -webkit-linear-gradient(to right, #ffc500, #c21500);
+  background: linear-gradient(to right, #ffc500, #c21500);
+  font-size: 20px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+  display: block;
+  text-decoration: none;
+}
+
+
+.sidebar .navb {
+
+  color: #CFD8DC;
+  font-size: 14px;
+  padding: 29px 12px;
+}
+
+.sidebar .navb :hover {
+  background: none;
+  color: #ECEFF1;
+}
+
+
+
+.db {
+  text-decoration: none;
+  list-style: none;
+  font-family: cursive;
+  font-size: 30px;
+}
+
+.navb li {
+  padding-left: 50px;
+  padding-bottom: 40px;
+  font-family: cursive;
+  font-size: 20px;
+  color: #c21500;
+  list-style: none;
+
+}
+
+.navb li:hover {
+  color: #ECEFF1
+}
+
+.over {
+  list-style: none;
+  text-decoration: none;
+}
+
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #ec9e16;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+
+.cta span {
+  position: relative;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #f5500f;
+  font-family: cursive;
+  
+}
+
+
+.cta:hover:before {
+  width: 100%;
+  background: #ec9e16;
+}
+
+
+
+.cta:active {
+  transform: scale(0.95);
+}

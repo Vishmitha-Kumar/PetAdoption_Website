@@ -1,0 +1,92 @@
+.footer-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  height: 50px;
+  margin-top: 2rem;
+  margin-left: 10rem;
+  font-style: cursive;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0 auto;
+  font-style: cursive;
+   background-color: rgb(78, 52, 17);
+  color:#ddd;
+  /* padding-left:30px; */
+  cursor: pointer;
+}
+
+.footer-items h3 {
+  font-style: cursive;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  margin: 20px 0 10px 0;
+}
+
+.footer-items ul {
+  font-style: cursive;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.footer-items li a {
+  font-style: cursive;
+  color: #ddd;
+  font-size: 0.875rem;
+}
+
+.footer-items li a:hover {
+  text-decoration: underline;
+  font-style: cursive;
+}
+
+.footer {
+  /* position: fixed; */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  background: #c21500;  
+  background: -webkit-linear-gradient(to right, #ffc500, #c21500);  
+  background: linear-gradient(to right, #ffc500, #c21500); 
+  color: white;
+  padding: 10px;
+  overflow-x: hidden;
+  text-align: center;
+  font-style: cursive;
+}
+
+.social-icons {
+  text-align: center;
+  padding: 5px;
+  font-style: cursive;
+  color: #fff;
+  cursor: pointer;
+}
+
+.social-icons h6 {
+  margin-bottom: 20px;
+  font-style: cursive;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  font-style: cursive;
+}
+
+.icon {
+  margin: 0 10px;
+  font-style: cursive;
+  color: #fff;
+  cursor: pointer;
+}

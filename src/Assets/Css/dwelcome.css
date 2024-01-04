@@ -1,0 +1,24 @@
+.dwel {
+  display: flex;
+  margin-left: 30rem;
+  padding-top: 50px;
+  height: 100vh;
+}
+
+.dwel video {
+  max-width: 80%;
+  max-height: 70%;
+}
+.qoute {
+    font-family: cursive; 
+    font-size: 1.5em; 
+    text-align: center;
+    margin-top: 25px; 
+    color: #333;
+    font-style: italic;
+    margin-left: 15rem;
+  }
+  .qoute svg {
+    fill: #ff29037f; 
+  }
+  
