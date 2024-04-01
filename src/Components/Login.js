@@ -5,13 +5,19 @@ import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, toast } from 'react-toastify';
+import axios from 'axios';
 function Login() {
 
   const navH = useNavigate();
-  const [username, setUsername] = useState('');
+
+  const[data,setData]=useState({
+    email:'',
+    password:''
+  })
+  const [email, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleUsernameChange = (e) => {
+  const handleChange = (e) => {
     setUsername(e.target.value);
   };
 
@@ -23,7 +29,7 @@ function Login() {
     e.preventDefault();
 
 
-    if (username === 'Isai' && password === '0706') {
+    if (email=== 'Isai@gmail.com' && password === '0706') {
        alert("Welcome!!")
       navH('/welcome')
 
@@ -49,14 +55,15 @@ function Login() {
           <form onSubmit={handleSubmit}>
             <h1>Petty Pet</h1>
             <h3>Login</h3>
-            <input
-              type="text"
-              id="user"
-              placeholder="Username "
-              className="auth-input"
+            
+             <input
+              type="email"
+              id="email"
+              placeholder="Email"
+              className="auth-inputr"
               required
-              value={username}
-              onChange={handleUsernameChange}
+              
+              onChange={handleChange}
             />
             <input
               type="password"
