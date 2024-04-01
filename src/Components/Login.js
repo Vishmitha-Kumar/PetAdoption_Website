@@ -52,7 +52,7 @@ function Login() {
             <input
               type="text"
               id="user"
-              placeholder="Username - Isai"
+              placeholder="Username "
               className="auth-input"
               required
               value={username}
@@ -61,7 +61,7 @@ function Login() {
             <input
               type="password"
               id="pwd"
-              placeholder="Password - 0706"
+              placeholder="Password "
               className="auth-input"
               required
               value={password}
