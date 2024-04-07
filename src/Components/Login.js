@@ -20,7 +20,7 @@ function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    axios.post("http://localhost:8080/api/v1/user/get", data)
+    axios.post("http://localhost:8080/api/v1/user/login", data)
       .then(response => {
         // Assuming your API returns a specific status or data on successful login
         if (response.status === 200) {
@@ -43,16 +43,17 @@ function Login() {
         }
       })
       .catch(error => {
-        toast.error('Invalid Username or Password', {
+        toast.error('Invalid Email or Password!', {
           position: "bottom-right",
-          autoClose: 5000,
+          autoClose: 3000,
           hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,
           draggable: true,
           progress: undefined,
-          theme: "colored",
-        });
+          theme: "dark",
+      });
+
       });
   };
 
