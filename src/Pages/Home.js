@@ -61,13 +61,12 @@ function Home() {
 
                     <h1>Emergency !</h1>
                     <h3>When You See an Animal in Distress … If you need to report a situation involving an animal in immediate danger</h3>
+                    <h3>Contact us: 98201 22602</h3>
 
                 </div>
-                <div className="emer">
-                <Link to='/form'>
-                <input type="submit" value="To Rescue" className="fourPic" />
-                </Link>
-                </div>
+                 <div className="emer">
+
+                </div> 
             </div>
             <Footer/>
         </>

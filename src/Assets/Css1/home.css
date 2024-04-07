@@ -168,7 +168,7 @@ body{
 .emergency{
  height:30vh;
     width:100vw;
-    background-color:burlywood;
+    background-color:rgb(228, 56, 56);
     padding: 5px;
     /* display: flex; */
     text-align: center;
@@ -177,8 +177,11 @@ body{
    text-align: center;
    height:15vh;
    width:100vw;
-   background-color: yellow;
+   /* background-color: rgb(17, 0, 255); */
    font-family: cursive;
+}
+.fourData h3{
+    padding: 1%;
 }
 .fourPic{
     
@@ -191,13 +194,13 @@ body{
     margin-right: 5rem;
     margin-top: 1rem;
     cursor: pointer;
+    border-radius: 5%;
 }
 .emer{
-    /* background-color: blue; */
-    height:15vh;
-    width:10vw;
-    /* padding-left:2%; */
-    margin-left: 45%;
+    background-color: rgb(247, 247, 247);
+    height:1vh;
+    width:100vw;
+    margin-top: 6%;
 }
 .fourPic:hover{
     background-color: rgba(128, 47, 47, 0.573);
@@ -250,4 +253,5 @@ body{
 color:rgb(252, 249, 249);
 background-color: rgb(165, 72, 72);
 }    
+
 
