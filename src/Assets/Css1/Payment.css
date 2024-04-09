@@ -1,0 +1,62 @@
+
+.wraper {
+   
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/772/373/311/dog-animals-photography-wallpaper-preview.jpg");
+     background-repeat: no-repeat;
+     background-size:cover ;
+     
+   
+    
+} 
+
+.paymentcontainer {
+    max-width: 370px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* background-color: ; */
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-family: cursive;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group input[type="number"],
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for individual form elements can be added as needed */

@@ -13,7 +13,7 @@
     
 } 
 
-.register {
+/* .register {
     height: 70vh;
     width: 25vw;
     overflow-y: hidden;
@@ -33,7 +33,30 @@
         17.7px 17.7px 14.2px rgba(0, 0, 0, 0.134),
         36.5px 36.5px 29.2px rgba(0, 0, 0, 0.166),
         100px 100px 80px rgba(0, 0, 0, 0.24);
+} */
+
+
+.register {
+    height: 70vh;
+    width: 25vw;
+    overflow-y: hidden;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    gap: 1rem;
+    display: flex;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4); /* Adjust the last value (alpha) for transparency */
+    left: 30rem;
+    box-shadow:
+        3.4px 3.4px 2.7px rgba(0, 0, 0, 0.074),
+        8.7px 8.7px 6.9px rgba(0, 0, 0, 0.106),
+        17.7px 17.7px 14.2px rgba(0, 0, 0, 0.134),
+        36.5px 36.5px 29.2px rgba(0, 0, 0, 0.166),
+        100px 100px 80px rgba(0, 0, 0, 0.24);
 }
+
 
 .register h3{
     padding-top: 2px;

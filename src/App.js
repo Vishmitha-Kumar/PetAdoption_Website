@@ -10,6 +10,7 @@ import './Assets/Css1/apet.css'
 import './Assets/Css1/opet.css'
 import './Assets/Css1/welcome.css'
 import './Assets/Css1/adopt.css'
+import './Assets/Css1/Payment.css'
 import Home from './Pages/Home'
 import Form from './Pages/Form'
 import Login from './Components/Login'
@@ -21,6 +22,8 @@ import Apet from './Pages/Apet'
 import Opet from './Pages/Opet'
 import Welcome from './Pages/Welcome';
 import Adopt from './Pages/Adopt'
+import Payment from './Components/Payment';
+
 function App(){
     return(
         <>
@@ -35,8 +38,9 @@ function App(){
            <Route path="/apet" element ={<Apet/>}/>
            <Route path="/opet" element ={<Opet/>}/>
            <Route path="/welcome" element ={<Welcome/>}/>
+           <Route path="/pay" element ={<Payment/>}/>
         </Routes>
-        {/* <Adopt/> */}
+        {/* <Payment/> */}
         
     
         </>
