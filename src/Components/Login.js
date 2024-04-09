@@ -5,6 +5,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import axios from 'axios';
 import '../Assets/Css/nav.css';
 import 'react-toastify/dist/ReactToastify.css';
+import { Link } from 'react-router-dom';
 
 function Login() {
   const navigate = useNavigate();
@@ -26,7 +27,7 @@ function Login() {
         if (response.status === 200) {
           toast.info('Welcome!', {
             position: "bottom-right",
-            autoClose: 1500,
+            autoClose: 3000,
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: true,
@@ -80,6 +81,9 @@ function Login() {
             onChange={handleChange}
           />
           <input type="submit" value="Login" className="auth-bts" />
+          <Link to='/register' style={{ textDecoration: 'none' }}>
+               <h4 style={{color:'black',textDecoration:'none',listStyle:'none'}}>Don't have an account ? Register</h4>
+               </Link>
         </form>
       </div>
       <ToastContainer
@@ -93,6 +97,7 @@ function Login() {
         draggable
         pauseOnHover
         theme="colored"
+        style={{ maxWidth: "500px" }}
       />
     </div>
   );
