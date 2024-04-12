@@ -84,9 +84,9 @@ public class UserService {
     }
 
 
-    public List<String> getUsersByAge(int age) {
-        return userRepository.getUserByAge(age);
-    }
+//    public List<String> getUsersByAge(int age) {
+//        return userRepository.getUserByAge(age);
+//    }
 
 }
 

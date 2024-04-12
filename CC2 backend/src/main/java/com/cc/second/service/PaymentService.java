@@ -4,6 +4,7 @@ package com.cc.second.service;
 
 
 
+import java.util.List;
 import java.util.Optional;
 
 import com.cc.second.model.Payment;
@@ -29,5 +30,9 @@ public class PaymentService {
             throw new IllegalArgumentException("Email already exist");
         else
             return paymentRepository.save(payment);
+    }
+
+    public List<String> getUsersByBreed(String breed) {
+        return paymentRepository.getUsersByBreed(breed);
     }
 }

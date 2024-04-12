@@ -99,14 +99,14 @@ public class UserController {
         }
     }
 
-      @GetMapping("/query")
-    public ResponseEntity<?> getUsersByAge(@RequestParam("age") int age){
-        try{
-            return new ResponseEntity<>(userService.getUsersByAge(age),HttpStatus.OK);
-        }
-        catch(Exception e){
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
-      }
+//      @GetMapping("/query")
+//    public ResponseEntity<?> getUsersByAge(@RequestParam("age") int age){
+//        try{
+//            return new ResponseEntity<>(userService.getUsersByAge(age),HttpStatus.OK);
+//        }
+//        catch(Exception e){
+//            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+//        }
+//      }
 
 }

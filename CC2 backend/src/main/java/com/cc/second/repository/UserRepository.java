@@ -17,7 +17,7 @@ public interface UserRepository extends JpaRepository<User,Integer> {
     Optional<User> findByEmail(String email);
     void deleteByEmail(String email);
 
-    @Query(value="select username,email,phone from User where age=:i",nativeQuery=true)
-    List<String> getUserByAge(@Param("i") int age);
+//    @Query(value="select username,email,phone from User where age=:i",nativeQuery=true)
+//    List<String> getUserByAge(@Param("i") int age);
 
 }

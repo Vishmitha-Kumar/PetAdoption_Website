@@ -28,6 +28,16 @@ public class PaymentController {
         }
     }
 
+    @GetMapping("/query")
+    public ResponseEntity<?> getUsersByBreed(@RequestParam("breed") String breed){
+        try{
+            return new ResponseEntity<>(paymentservice.getUsersByBreed(breed),HttpStatus.OK);
+        }
+        catch(Exception e){
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
+
 
 
 }
